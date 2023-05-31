@@ -167,7 +167,8 @@ label {
     margin-top: 20px;
     width: 180px;
     height: 30px;
-    background-color: #96C5F7;
+    border: none;
+    background-color: #007bff;
     border-radius: 10px;
     cursor: pointer;
 }
