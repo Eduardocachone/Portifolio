@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #1C1C1C;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+
+@media (max-width: 768px) {
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Developer{
+    max-width: 100%;
+}
+
+.FullStack{
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.profale-conteiner{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    max-height: 420px;
+    max-width: 320px;
+    overflow: auto;
+}
+
+.project-card-conteiner{
+    overflow-x: auto;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card{
+    width: 300px;
+    height: 600px ;
+
+}
+
+
+.span-title{
+    margin-top: 30px;
+}
+
+.contact{
+    max-height:820px;
+}
+}
+
+.hero-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    background-image: url("./fundo.jpg");
+    background-size: cover;
+}
+.FullStack{
+    max-height: 500px;
+}
+
+.Developer{
+    width: 700px;
+    color: #ffff;
+    font-size: 55px;
+    margin-bottom: 100px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+.profale-conteiner{
+    height: 100vh;
+    background-image: url("./fundo2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards{
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5F2C9;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.profale-image{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius:  50%;
+    border: 3px solid #96C5F7;
+}
+.profale-span{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.profale-name{
+    font-size:30px;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 15px;
+
+}
+
+.profale-frase{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.profale-button{
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    background-color: #96C5F7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+.project-container{
+    height: 100vh;
+    background-image: url("./fundo3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card-conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+
+.text2{
+    width: 100%;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.span-title{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    color: #ffff;
+
+}
+
+.project-image{
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.description{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    margin: 20px;
+    width: 100%;
+}
+
+.contact-container{
+    height: 100vh;
+    background-image: url("./fundo4.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 1000px;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-span{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    margin: 20px;
+}
+
+
+
+  .enviar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+  }
+  
+  .nome input,
+  .phone input,
+  .email input {
+    width: 300px;
+  }
+
+  
+  .mensage textarea {
+    width: 300px;
+    height: 100px;
+  }
